@@ -87,7 +87,7 @@
     border-radius: 5px;
     /* padding: 30px 20px; */
     font-weight: 700;
-    border: 1px solid blueviolet;
+    border: 1px solid #FF5959;
     font-size: 18px;
     color: #707070;
     text-align: center;
@@ -258,6 +258,115 @@
 /* body poster */
 .body_poster_2 {
     display: flex;
-    width: 456px;
-    height: 477px;
+    justify-content: space-between;
+    gap: 90px;
+    padding-left: 156px;
+    padding-bottom: 130px;
+}
+
+.body_poster_2 img {
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.body_poster_2 h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.body_poster_2 p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #707070;
+}
+
+/* body button part */
+.body_btn {
+    width: 230px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* subscribe part */
+.subscribe_part {
+    text-align: center;
+}
+
+.subscribe_part h1 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.subscribe_part p {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+/* subscribe froum part start */
+.sub_from {
+    display: flex;
+    gap: 0;
+    width: 750px;
+    justify-content: center;
+    height: 200px;
+    margin-right: 215px;
+    margin-left: 215px;
+    background: #FFF4D6;
+    margin-bottom: 130px;
+}
+
+/* subscribe button and from start here */
+/* input box */
+#your_mail {
+    width: 275px;
+    height: 48px;
+    margin-top: 75px;
+    border: 0;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 15px;
+    font-size: 1em;
+}
+
+/* button start here */
+.submit {
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border: 0;
+    color: #FAFAFA;
+    font-size: 1em;
+    border-radius: 5px;
+}
+/* footer part start here  */
+footer
+{
+    background: #0B0D17;
+    height: 175px;
+    width: 100%;
+}
+footer h1
+{
+    color: #FF5959;
+    font-family: 'Lobster';
+    text-align: center;
+    padding-top: 15px;
+}
+footer h6
+{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
 }
